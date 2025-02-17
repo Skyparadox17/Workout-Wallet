@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gym Cost Tracker</title>
+</head>
+<body>
+    <h1>Gym Cost Tracker</h1>
+    <label for="membershipCost">Membership Cost (£):</label>
+    <input type="number" id="membershipCost"><br><br>
+    <label for="visitCost">Cost per Visit (£):</label>
+    <input type="number" id="visitCost"><br><br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
